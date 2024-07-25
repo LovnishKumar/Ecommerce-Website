@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+.b {
+    min-width: 15rem;
+    background-image: linear-gradient(to right, gold,75%,#ffff)!important;
+    font-family: 'Pacifico', cursive ;
+    background-clip: text !important;
+    color: transparent !important;
+    letter-spacing: 3px;
+    width: 4%;
+  }
+  
+  
+  
+  .bn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+  
+  }
+
+
+
+  /* sm */
+  @media (max-width : 600px){
+
+    
+  .cmv {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  
+  .header-contact {
+    display: none;
+  }
+
+  .header-search {
+    .form-control {
+
+      max-width: 40rem;
+    }
+  }
+
+
+
+
+
+  }
+
+  
+@media (max-width:991px) {
+
+    .l-c {
+      width: 5rem;
+  
+    }
+  
+    .header-cart-btn {
+      background-color: gold;
+      color: black;
+      font-weight: 600;
+      margin-top: 0.4rem;
+    }
+  
+  
+  }
+
+  @media (min-width:991px){
+    .header-login-btn {
+        background-color: gold;
+        color: black;
+        font-weight: 600;
+        margin-right: 0.4rem;
+        width: 5rem;
+      }
+      .header-cart-btn {
+        background-color: gold;
+        color: black;
+        font-weight: 600;
+        width: 5rem;
+      }
+    
+      .header-search-btn {
+        background-color: gold;
+        color: black;
+        font-weight: 600;
+    
+      }
+  }
+
+  @media (min-width: 1049px) and (max-width:1410px){
+
+    .new-contact {
+        display: none;
+      }
+    
+    
+      .d-flex {
+        display: flex;
+        justify-content: center;
+      }
+    
+    
+      .header-search {
+        .form-control {
+          min-width: 24rem;
+          max-width: 40rem;
+        }
+      }
+    
+    
+    
+    
+      .bn {
+        margin-bottom: -10px;
+      }
+
+
+     
+  }
+
+/* md */
+  @media (min-width: 600px) and (max-width:1049px){
+
+
+    .header-search {
+        .form-control {
+          min-width: 24rem;
+          max-width: 40rem;
+        }
+      }
+
+      
+  .new-contact {
+    display: none;
+  }
+
+  .bn {
+    margin-bottom: -10px;
+  }
+
+
+
+
+  }
+
+
+  /* lg */
+@media (min-width : 1410px){
+
+    
+  .header-search {
+    .form-control {
+      min-width: 24rem;
+      max-width: 40rem;
+    }
+  }
+
+
+
+  .new-contact {
+    display: none;
+  }
+
+
+  .bn {
+    margin-bottom: -10px;
+  }
+
+}
+
+.header {
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.1);
+  }
